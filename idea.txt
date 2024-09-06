@@ -1,0 +1,7 @@
+The Idea here is to create a few pages
+1) Create a page where a user fills out his details with his image
+2) A page where the details of the user is shown
+3) An option to edit The page
+
+
+The tech stack used here is PostgreSQL, ExpressJS, React, NodeJS

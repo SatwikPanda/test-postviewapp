@@ -3,8 +3,10 @@ import express from 'express';
 const app = express();
 
 
-app.get('/', (req, res) => {
-    res.send("Server is Ready");j
+app.get('/details', (req, res) => {
+
+    //Create a database that from which it will fetch user details.
+    res.send("Server is Ready");
 })
 
 app.listen(5000, () => {
