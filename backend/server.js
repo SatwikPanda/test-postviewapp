@@ -8,10 +8,9 @@ dotenv.config();
 const app = express();
 app.use(express.json()); //allows use to accept json data
 app.use("/api/users", userRoutes)
+const PORT = process.env.PORT || 5000;
 
-
-
-app.listen(5000, () => {
+app.listen(PORT, () => {
     connectDB();
-    console.log('Server listening at http://localhost:5000');
+    console.log(`Server listening at http://localhost:${PORT}`);
 });
