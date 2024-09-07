@@ -5,3 +5,5 @@ The Idea here is to create a few pages
 
 
 The tech stack used here is PostgreSQL, ExpressJS, React, NodeJS
+
+Satwik
