@@ -4,4 +4,4 @@ The Idea here is to create a few pages
 3) An option to edit The page
 
 
-The tech stack used here is MongoDB, ExpressJS, React, NodeJS
+The tech stack used here is MongoDB, ExpressJS, React, NodeJS, tailwindcss
